@@ -1,0 +1,12 @@
+name: Starter Workshop
+modules:
+  activate:
+  - workshop-overview
+  - setup-environment
+  - exercises/00-content
+  - exercises/01-content
+  - exercises/02-content
+  - exercises/03-content
+  - exercises/04-content
+  - exercises/05-content
+  - workshop-summary

@@ -1,0 +1,29 @@
+apiVersion: training.educates.dev/v1beta1
+kind: Workshop
+metadata:
+  name: lab-demo-buildpacks
+spec:
+  title: Starter Workshop
+  description: Starter workshop for Educates
+  workshop:
+    image: jdk17-environment:*
+    files:
+    - image:
+        url: $(image_repository)/lab-demo-buildpacks-files:latest
+      includePaths:
+      - /workshop/**
+      - /exercises/**
+      - /README.md
+  session:
+    namespaces:
+      budget: medium
+    applications:
+      terminal:
+        enabled: true
+        layout: default
+#      console:
+#        enabled: true
+      editor:
+        enabled: true
+      docker:
+        enabled: true

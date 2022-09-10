@@ -1,0 +1,22 @@
+modules:
+  workshop-overview:
+    name: Workshop Overview
+    exit_sign: Setup Environment
+  setup-environment:
+    name: Setup Environment
+    exit_sign: Start Workshop
+  exercises/00-content:
+    name: Buildpacks 101
+  exercises/01-content:
+    name: Build Image
+  exercises/02-content:
+    name: Transparency
+  exercises/03-content:
+    name: OS Patching
+  exercises/04-content:
+    name: Custom Buildpacks
+  exercises/05-content:
+    name: Spring Boot
+  workshop-summary:
+    name: Workshop Summary
+    exit_sign: Finish Workshop
