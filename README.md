@@ -1,7 +1,9 @@
 Buildpacks Demo
 ================
 
-Starter workshop for Educates
+Educates-based workshop for demoing buildpacks
+
+### Setup
 
 Set up local dev environment using kind
 ```shell
@@ -14,6 +16,10 @@ Deploy workshop
 git clone https://github.com/ciberkleid/lab-demo-buildpacks
 cd lab-demo-buildpacks
 make
+```
+
+Open the workshop in a browser
+```shell
 make open-workshop
 ```
 
